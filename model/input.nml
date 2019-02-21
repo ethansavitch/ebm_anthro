@@ -1,0 +1,25 @@
+
+ &ebm
+   seasons	= .true.,
+   snowball     = .false.,
+   soladj       = .false.,
+   resfile      = 2,
+   tend		= 7.e11, 
+   dt		= 8.64e4,
+   rot		= 7.27e-5,
+   a		= 1.49597892E13,
+   ecc		= 0.0,
+   peri		= 76.25,
+   obl		= 23.5,
+   cloudir	= -9.5, 
+   d0           = 0.38,
+   ocean	= 0.7,
+   igeog	= 5,
+   groundalb	= 0.291,
+   relsolcon	= 1.00,
+   landsnowfrac = 1.00, 
+   fcloud       = 0.00,
+   yrstep       = 1,
+   stochastic   = .false.,
+   noisevar     = 0.334 /
+

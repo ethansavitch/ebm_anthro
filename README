@@ -1,0 +1,25 @@
+README file for Energy Balance Model
+
+Last revision: 04 October 2017 (JDH)
+
+
+1) 
+Edit ./model/Makefile and set the values of the Fortran compiler FC and location of this model WDIR
+
+2) 
+Edit runEBM.sh set the value of "wdir"
+
+3) Check that ncl is installed on your system (needed for plots only, locased in ./plots)
+
+4) 
+Adjust any model parameters by editing the file ./input.nml. 
+  
+-- To change the total radiative forcing (including from CO2), edit relsolcon, the relative solar constant
+
+5) 
+Adjust the length of the model integration by setting the value of the "niter" parameter in ./model/driver.f on line 58.
+
+6) 
+Run the script by executing ./runEBM.sh
+
+7) Model output is located in ./model/out/
